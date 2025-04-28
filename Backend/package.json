@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a backend folder for the project named \"Plant vigor\"",
+  "homepage": "https://github.com/amit-kumar1511/Plant-Selling#readme",
+  "bugs": {
+    "url": "https://github.com/amit-kumar1511/Plant-Selling/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit-kumar1511/Plant-Selling.git"
+  },
+  "license": "ISC",
+  "author": "Abhishek",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
+}
