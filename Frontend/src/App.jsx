@@ -1,11 +1,14 @@
-import './App.css'
+// import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "../components/header/header"
+
+
 
 function App() {
 
   return (
    <>
-   hello  radhe radhe radhe
-    <div>this is ur ....</div>
+      <Header/>
    </>
   )
 }
