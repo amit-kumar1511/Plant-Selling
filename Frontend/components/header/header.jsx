@@ -10,8 +10,23 @@ const Header = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-2">
-                <img src="i1.jpeg" alt="nahi hai" srcset="" />
+                <img src="i1.jpeg" alt="nahi hai" srcset=""  className='i1'/>
               </div>
+
+              {/* header search  start here */}
+              <div className="col-sm-5">
+              <div className="headerSearch d-flex align-items-center">
+               <div className="selectDrop curso">
+                     All Categories
+               </div>
+
+               <div className="search">
+                <input type="text" placeholder='Search for items ...' />
+               </div>
+              </div>
+              </div>
+
+              {/* header search end here */}
             </div>
           </div>
 
