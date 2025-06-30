@@ -1,5 +1,7 @@
 import React from 'react'
 import "../header/header.css"
+import { IoSearchOutline } from "react-icons/io5";
+import Select from '../selectDrop/select';
 // import Logo from "../../src/assets/images/i1.jpeg";
 
 
@@ -16,12 +18,13 @@ const Header = () => {
               {/* header search  start here */}
               <div className="col-sm-5">
               <div className="headerSearch d-flex align-items-center">
-               <div className="selectDrop curso">
-                     All Categories
-               </div>
+                <Select/>
+               
+               
 
                <div className="search">
                 <input type="text" placeholder='Search for items ...' />
+                <IoSearchOutline className='searchIcon' />
                </div>
               </div>
               </div>

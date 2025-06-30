@@ -12,17 +12,25 @@ header .headerSearch{
  cursor: pointer;
 }
 .i1{
-    height: 58px;
+    height: 50px;
+    
 }
 
-header .headerSearch .selectDrop{
+/* header .headerSearch .selectDrop{
     width: 35%;
     font-size: 16px;
     font-weight: 500;
     position: relative;
+} */
+
+header .headerSearch .selectDrop {
+  width: 35%;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
 }
 
-header .headerSearch .selectDrop::after{
+/* header .headerSearch .selectDrop::after{
  content: '';
  width: 1px;
  height: 30px;
@@ -31,7 +39,17 @@ header .headerSearch .selectDrop::after{
  top: 0px;
  right: 0px;
 
+} */
+ header .headerSearch .selectDrop::after {
+  content: '';
+  width: 1px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
+
 header .headerSearch .search{
     width:82%;
     padding-left: 25px;
@@ -42,4 +60,13 @@ header .headerSearch .search input{
   border: 0px;
   outline: none ! important;
   font-size: 18px;
+}
+
+header .headerSearch .search .searchIcon{
+    position: absolute;
+    top:53px;
+    right: 45%;
+    opacity: 0.5;
+    font-size: 20px;
+
 }
